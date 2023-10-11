@@ -1,8 +1,11 @@
+
+### Functions
 1. Implement the function maxPower() that takes two parameters M and N and returns the largest integer K such that M <= NK
 maxPower (80000, 5) should return 8
 maxPower (30000, 9) should return 6
 Check correctness of the function in main().
 
+### String operations
 2. Implement the function num2words() which takes a number and returns the number in words as a string.
 For example, num2words(123) should return the string "one two three".
 Test correctness of the function with different argument, calling it from main().
@@ -17,6 +20,7 @@ For example, capitalizeWords ("one two three") should return "One Two Three".
 5. Implement the function removeConsecutiveDuplicates() which takes two parameters, a string from which duplicates have to be removed and another string that specifies characters to be removed. The function should return the resulting string
 removeConsecutiveDuplicates("gooddeed", "od") should return "geed"
 
+### Arrays & Slices
 6. Write a program that creates slices each of increasing size, starting with slice of 1 element.
 Store the first 120 prime numbers into these slices as per the pattern given below:
   Slice-1 : first prime number
@@ -25,6 +29,7 @@ Store the first 120 prime numbers into these slices as per the pattern given bel
   Slice-4 : next 4 prime numbers
 Having created, print contents each slice one line per row.
 
+### Commandline arguments
 7. Implement the function num2hex() which takes an unsigned integer and returns its hexa equivalent as a string.
 Function should take an extra argument which specifies whether the hexa digits should be in lower case (default) or upper case.
 Using the function num2hex() implement main which takes an integer value and prints its hexa equivalent. If the number precedes with —u option, then the hexa value should be printed in uppercase. Any other option other than —u should be considered invalid.
@@ -72,3 +77,11 @@ The program should support the following command line agruments:
         i) copies odd numbered lines to the file whose file handle is destination file handle1 
         ii) copies even numbered lines to the file whose file handle is destination file handle2
       b) Use the above function to copy odd and even numbered lines of file X into file Y and Z respectively. Filenames X, Y and Z are given as command line arguments.
+
+### Maps & File I/O
+12. Write a program that reads words from console, and at the end of the input, prints words of same length. Output only those words which have at least 4 characters.
+    Output should be in the following format:
+      4: 4-letter words in alphabetical order
+      5: 5-letter words in alphabetical order
+      6: 6-letter words in alphabetical order
+      ...
